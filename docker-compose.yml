@@ -21,7 +21,7 @@ services:
     environment:
       - DB_HOST=postgresql
       - DB_ADAPTER=postgresql
-      - DB_POST=5432
+      - DB_PORT=5432
       - DB_USER=gitlab
       - DB_PASS=password
       - DB_NAME=gitlabhq_production
